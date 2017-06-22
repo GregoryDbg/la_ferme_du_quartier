@@ -1,0 +1,84 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  border: 1px solid;
+}
+
+.name {
+  font-size: 40px;
+}
+.catchphrase {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.equation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#vocab {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.definition {
+  width: 50%;
+  margin: auto;
+}
+
+.calcul {
+  font-size: 50px;
+}
+
+.icon-equation {
+  width: 120px;
+  height: 120px;
+  margin: 50px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.cycle {
+  width: 100%;
+}
+
+.wrapper-principe {
+  min-height: 100vh;
+  border: 1px solid;
+  display: flex;
+}
+
+.process {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+}
+.guide-1-5 {
+  width: 60%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.guide {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+
+}
+
+
