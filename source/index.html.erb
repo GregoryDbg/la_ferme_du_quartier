@@ -1,17 +1,22 @@
 ---
 title: La Ferme du Quartier
 ---
-<div class="wrapper text-center">
-  <div class="name">Association la Ferme du Quartier</div>
-  <div class="catchphrase">Pour la revalorisation des écosystèmes dans un monde sobre en carbone</div>
+<div class="wrapper text-center" id="section1">
+  <div class="name">
+    Association<br>
+    La Ferme du Quartier
+  </div>
+  <div class="catchphrase">Pour la revalorisation des écosystèmes dans un monde sobre en carbone
+  </div>
   <%= image_tag "banniere_lfdq.png", class: "banner_lfdq_img" %>
-  <div class="buttons text-center">
-    <%= link_to "Projet Ecoponie", "ecoponie.html", class: "btn-medium" %>
-    <%= link_to "Cuisinons le futur", "ecoponie.html", class: "btn-medium" %>
+  <div class="next-section">
+    <a href="#section2">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
   </div>
 </div>
 
-<div class="wrapper text-center">
+<div class="wrapper text-center" id="section2"">
   <h1>Ecoponie</h1>
   <div id="vocab">
     Ecoponie = <strong>Eco</strong>logie + <strong>Eco</strong>nomique + Acqua<strong>ponie</strong>
@@ -22,10 +27,13 @@ title: La Ferme du Quartier
   <div class="definition">
     Le projet Ecoponie met en oeuvre une symbiode de fonctionnement entre une production acquacole (des crustacés) et une production végétale.
   </div>
+    <a href="#section3">
+      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+    </a>
 </div>
 
 
-<div class="wrapper text-center">
+<div class="wrapper text-center" id= "section3">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
@@ -43,12 +51,29 @@ title: La Ferme du Quartier
       </div>
     </div>
   </div>
+  <a href="#section4">
+    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+  </a>
 </div>
 
 
-<div class="wrapper text-center">
-</div>
-<div class="wrapper text-center">
+<div class="wrapper text-center" id="section4">
+  <h1>Nos Partenaires</h1>
+  <div class="partenaires">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+        <%= image_tag "ceebios_logo.png", class: "partenaires-logo" %>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <%= image_tag "hauts_de_france_logo.png", class: "partenaires-logo" %>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <%= image_tag "logo_fdf.png", class: "partenaires-logo" %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
