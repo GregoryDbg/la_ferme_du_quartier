@@ -1,26 +1,30 @@
 .wrapper {
   width: 100%;
   height: 100vh;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
 }
-
 .name {
   font-size: 40px;
 }
 .catchphrase {
   font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
-
-.buttons {
-  margin-top: 30px;
+.fa-arrow-circle-o-down {
+  font-size: 50px;
+  position: absolute;
+  bottom: 10px;
 }
+.next-section {
+    width: 100%;
+    margin: 0 -21px;
+ }
 
 .equation {
   width: 100%;
+  margin-bottom: 60px;
 }
 
 #vocab {
@@ -38,21 +42,10 @@
 }
 
 .img-ecoponie {
-  width: 80%;
-}
-
-
-.icon-equation {
-  width: 120px;
-  height: 120px;
-  margin: 50px;
-  border: 1px solid black;
-  padding: 5px;
-  border-radius: 50%;
+  width: 70%;
 }
 
 .process-img {
-  border: 1px solid black;
   margin-top: 50px;
   height: 450px;
   background-image: image-url("../images/aquapo.png");
@@ -62,7 +55,6 @@
 }
 
 .process-txt {
-  border: 1px solid black;
   margin-top: 50px;
   height: 450px;
   position: relative;
@@ -74,4 +66,14 @@
 .para {
   padding: 20px 30px;
 }
+
+.partenaires {
+  margin-top: 220px;
+}
+
+.partenaires-logo {
+  width: 150px;
+  height: 150px;
+}
+
 
