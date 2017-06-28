@@ -3,14 +3,19 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative;
   justify-content: space-around;
+  position: relative;
 }
+
 .name {
-  font-size: 40px;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
 }
 .catchphrase {
   font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  margin: 0px 20px;
 }
 .fa-arrow-circle-o-down {
   font-size: 50px;
@@ -22,17 +27,28 @@
   margin: 0 -21px;
  }
 
-.projet {
-
+.title {
+  font-size: 30px;
 }
 .equation {
   width: 100%;
 }
 
 #vocab {
+  font-size: 20px;
+  font-weight: 200;
+  background: -webkit-linear-gradient(left,#43C996 0%,#62CAD9 50%,#305A8D 100%);
+  padding: 40px 0px;
+  color: white;
 }
 
 .definition {
+  padding: 50px 0px;
+  background: -webkit-linear-gradient(left,#43C996 0%,#62CAD9 50%,#305A8D 100%);
+  color: white;
+}
+.definition-txt {
+
 }
 
 .calcul {
@@ -44,30 +60,26 @@
 }
 
 .process-img {
-  height: 450px;
   background-image: image-url("../images/aquapo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  height: 300px;
 }
 
 .process-txt {
-  height: 450px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .para {
-}
-
-.partenaires {
+  margin: 10px 10px;
 }
 
 .partenaires-logo {
   width: 150px;
   height: 150px;
+  margin: 20px;
 }
 
-
+#section4 {
+  height: 50vh;
+}
