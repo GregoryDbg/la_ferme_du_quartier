@@ -4,29 +4,23 @@ title: La Ferme du Quartier
 <div class="wrapper text-center" id="section1">
   <div class="name">
     Association<br>
-    La Ferme du Quartier
-  </div>
-  <div class="catchphrase">Pour la revalorisation des écosystèmes dans un monde sobre en carbone
+    La Ferme du Quartier.
   </div>
   <%= image_tag "banniere_lfdq.png", class: "banner_lfdq_img" %>
+  <div class="catchphrase">Pour la revalorisation des écosystèmes dans un monde sobre en carbone
+  </div>
   <div class="next-section">
     <a href="#section2">
-      <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+      <i class="fa fa-arrow-circle-o-down text-center" aria-hidden="true"></i>
     </a>
   </div>
 </div>
 
 <div class="wrapper text-center" id="section2">
   <div class="title">Ecoponie</div>
-  <div id="vocab"> <strong>Ecoponie = </strong><br> <strong>Eco</strong>logie <strong>+</strong> <strong>Eco</strong>nomique <strong>+</strong> Acqua<strong>ponie</strong></div>
-  <div class="equation"><%= image_tag "ecoponie.png", class: "img-ecoponie" %></div>
-  <div class="definition">
-    <div class="definition-txt">
-    Le projet Ecoponie met en oeuvre une symbiose de fonctionnement <br>
-    entre une production acquacole (des crustacés) et une production végétale.
-    </div>
+  <div class="illustration"><%= image_tag "ecoponie.png", class: "img-ecoponie" %></div>
+  <div id="projet">Le projet Ecoponie met en oeuvre une symbiose de fonctionnement<br>entre une production acquacole (des crustacés) et une production végétale.
   </div>
-
   <div class="next-section">
     <a href="#section3">
       <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
@@ -35,13 +29,22 @@ title: La Ferme du Quartier
 </div>
 
 
+
+
 <div class="wrapper text-center" id= "section3">
-  <div class="process-img">
-  </div>
+  <%= image_tag "aquapo.png", class: "process-img" %>
   <div class="process-txt">
-    <div class="para"> Cette pratique agricole innovante, basée sur le principe de bouclage écosystémique, permet une production double et simultanée sur des surfaces artificialisées.
-    </div>
-    <div class="para">Ce projet de recherche et développement vise à expérimenter cette solution dans un contexte permettant de préciser les conditions de mise œuvre techniques et économiques requises pour intégrer cette innovation au panel des pratiques agricoles de la transition écologique et solidaire."
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="para"> Le projet Ecoponie met en oeuvre une symbiose de fonctionnement entre une production acquacole (des crustacés) et une production végétale.Cette pratique agricole innovante, basée sur le principe de bouclage écosystémique, permet une production double et simultanée sur des surfaces artificialisées.
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="para">Ce projet de recherche et développement vise à expérimenter cette solution dans un contexte permettant de préciser les conditions de mise œuvre techniques et économiques requises pour intégrer cette innovation au panel des pratiques agricoles de la transition écologique et solidaire."
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="next-section">
@@ -55,23 +58,21 @@ title: La Ferme du Quartier
 <div class="wrapper text-center" id="section4">
   <div class= "title">Nos Partenaires
   </div>
+  <div class="partenaires">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
-        <%= image_tag "ceebios_logo.png", class: "partenaires-logo" %>
+          <%= image_tag "ceebios_logo.png", class: "partenaires-logo" %>
         </div>
         <div class="col-xs-12 col-sm-4">
-        <%= image_tag "hauts_de_france_logo.png", class: "partenaires-logo" %>
+          <%= image_tag "hauts_de_france_logo.png", class: "partenaires-logo" %>
         </div>
         <div class="col-xs-12 col-sm-4">
-        <%= image_tag "logo_fdf.png", class: "partenaires-logo" %>
+          <%= image_tag "logo_fdf.png", class: "partenaires-logo" %>
         </div>
       </div>
     </div>
-  <div class= "title">Contact</div>
-  <div>contact@lafermeduquartier.fr</div>
-</div>
-
-<div class="wrapper text-center" id="section4">
-
+  </div>
+  <div class="title">Contact</div>
+  <div id="contact">contact@lafermeduquartier.fr</div>
 </div>
