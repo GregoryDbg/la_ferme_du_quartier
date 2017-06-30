@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #45C99B;
+  color: #92ab29;
 }
 .catchphrase {
   font-size: 30px;
@@ -24,11 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
-}
-.fa-arrow-circle-o-down {
-  font-size: 50px;
-  color: #315C8F;
+  color: #92ab29;
 }
 .next-section {
   width: 100%;
@@ -39,7 +35,10 @@
   align-items: flex-end;
   justify-content: center;
  }
-
+.fa-arrow-circle-o-down {
+  font-size: 50px;
+  color: #92ab29;
+}
 .title {
   font-size: 50px;
   font-family: 'Amatic SC', cursive;
@@ -47,7 +46,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #45C99B;
+  color: #92ab29;
 }
 
 .illustration {
@@ -64,9 +63,10 @@
   color: white;
   flex: 0.20;
   display: flex;
-  color: #315C8F;
+  color: black;
   justify-content: center;
   align-items: center;
+  font-family: $base-font;
 }
 
 .equation {
@@ -84,33 +84,31 @@
   width: 80%;
 }
 
-#process {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
 .process-img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0px auto;
-  width: 35%;
+  width: 290px;
+  margin: 20px auto 0px auto;
 }
 
 .process-txt {
-  color: white;
+  color: black;
   flex: 1;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .para {
   padding: 10px;
-  background: -webkit-linear-gradient(left, #43C996 0%, #62CAD9 50%, #305A8D 100%);
   text-align: justify;
   margin-bottom: 10px;
-  height: 196px;
+  border: 1px solid #92ab29;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  font-family: $base-font;
   }
 
 #partenaires {
@@ -131,4 +129,5 @@
   justify-content: center;
   align-items: center;
   color: 1px solid #315C8F;
+  font-family: $base-font;
 }
