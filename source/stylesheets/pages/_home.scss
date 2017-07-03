@@ -111,20 +111,20 @@
   font-family: $base-font;
   }
 
-#partenaires {
-  flex: 0.25
+.partenaires {
+  flex :0.4;
 }
 
 .partenaires-logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
   margin: 20px;
-  border: 1px solid #315C8F;
-  padding: 3px;
 }
 
-#contact {
-  flex: 0.25;
+.contact {
+  flex: 0.35;
+}
+
+#mail {
   display: flex;
   justify-content: center;
   align-items: center;
